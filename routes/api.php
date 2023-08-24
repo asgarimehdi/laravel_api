@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-require __DIR__ . '/api/v1.php';
+
 require __DIR__ . '/api/v2.php';
 Route::prefix('auth')->group(function (){
     Route::post('/login',LoginController::class);
